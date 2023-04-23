@@ -3,6 +3,5 @@ import { transporter } from "../utils/constants";
 
 export const emailSend = async ( info : Email) => {
    const result = await transporter.sendMail({...info});
-   console.log(result);
    return result
 }
