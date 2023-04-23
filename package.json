@@ -8,7 +8,7 @@
     "dev": "nodemon src/app.ts",
     "start:prd": "node dist/app.js",
     "build": "tsc --build",
-    "build:prd": "npm install &&  npm install typescript -g && npm run build"
+    "build:prd": "npm install &&  npm install typescript && npm run build"
   },
   "author": "Carlos Rubio Viloria",
   "license": "ISC",
