@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/app.ts",
-    "start": "node app.ts"
+    "start:prd": "node dist/app.js",
+    "build": "tsc --build"
   },
   "author": "Carlos Rubio Viloria",
   "license": "ISC",
