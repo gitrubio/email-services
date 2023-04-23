@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/app.ts",
     "start:prd": "node dist/app.js",
-    "build": "tsc --build"
+    "build": "tsc --build",
+    "build:prd": "npm install &&  npm install typescript -g && npm run build"
   },
   "author": "Carlos Rubio Viloria",
   "license": "ISC",
