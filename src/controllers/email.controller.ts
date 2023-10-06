@@ -8,7 +8,7 @@ async function sendEmail(req: Request, res: Response) {
 
     try {
      const {response} = await services.emailSend({
-        from: `"${data.titleFrom}" <${config.emails.user}>`, // sender address
+        from: ` ${data.titleFrom} <${data.userFrom}>`, // sender address
         to: data.userTo, // list of receivers
         subject: data.subject, // Subject line
         text: data.text || '', // plain text body
